@@ -3,19 +3,9 @@ package com.example.dtluc.llistview;
 
 
 import android.app.Activity;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
-import android.widget.AdapterView;
-import android.widget.BaseAdapter;
-import android.widget.ImageView;
-import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -31,7 +21,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         initViews();
-        initdatas();
+        initDatas();
         recyclerView.setAdapter(timelineAdapter);
         recyclerView.setLayoutManager(linearLayoutManager);
     }
@@ -40,7 +30,7 @@ public class MainActivity extends Activity {
         recyclerView = (RecyclerView) findViewById(R.id.recyclerview);
     }
 
-    private void initdatas(){
+    private void initDatas(){
         itemBeanList = new ArrayList<>();
         for(int i = 0;i < 20;i++){
             itemBeanList.add(new ItemBean("Time"+i,R.drawable.ic_launcher,R.drawable.ic_launcher,"Contents"+i));
