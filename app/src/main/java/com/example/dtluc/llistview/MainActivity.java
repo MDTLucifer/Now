@@ -12,6 +12,10 @@ import java.util.List;
 
 public class MainActivity extends Activity {
 
+    /*
+    * 看到我的修改了么
+    * */
+
     private RecyclerView recyclerView;
     private List<ItemBean> itemBeanList;
     private TimelineAdapter timelineAdapter;
