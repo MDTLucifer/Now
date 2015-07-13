@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LlistView</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="shuai">嘿帅的ListView</string>
+</resources>
