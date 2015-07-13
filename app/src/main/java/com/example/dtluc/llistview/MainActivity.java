@@ -13,7 +13,7 @@ import java.util.List;
 public class MainActivity extends Activity {
 
     /*
-    * 看到我的修改了么
+    * 看到我的修改了么，没看到。
     * */
 
     private RecyclerView recyclerView;
